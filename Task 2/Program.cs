@@ -15,4 +15,4 @@ do
 
 //Using an interface for better abstraction in case we have different taxcalculators in the future
 ITaxCalculator taxCalculator = new TaxCalculator(salary);
-Console.WriteLine($"Net salary is: {taxCalculator.CalculateTax()}");
+Console.WriteLine($"Net salary is: {taxCalculator.CalculateTax()} IDR");
