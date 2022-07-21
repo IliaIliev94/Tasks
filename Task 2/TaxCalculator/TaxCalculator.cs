@@ -10,8 +10,8 @@ namespace Task2.TaxCalculator
     {
         /*Storing the tax percentages as fields so the logic can be easily changed in the future and new
         taxes can be added as fields */
-        private double incomeTaxAmount = 0.1;
-        private double socialContributionsAmount = 0.15;
+        private readonly double incomeTaxAmount = 0.1;
+        private readonly double socialContributionsAmount = 0.15;
 
         public TaxCalculator(double salary)
         {
